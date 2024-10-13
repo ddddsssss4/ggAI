@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import Login from './pages/Auth/Login';
 import Signup from './pages/Auth/Signup';
 import Level1 from './pages/Levels/Level1';
+import TeacherDashboard from './pages/Teacher/TeacherDashboard';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           }
         />
         <Route path="/level1" element={<Level1/>} /> 
+        <Route path="teacher" element={<TeacherDashboard/>} />
       </Routes>
       
     </div>

@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.boxgradient {
+    background-color: #75AEFF;
+    border-radius: 37px;
+}
